@@ -1,0 +1,298 @@
+body{
+	font-family: "Helvetica";
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+	box-sizing: border-box; 
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1124px;
+	margin: 0 auto;
+	align-items:  flex-start;
+}
+
+.container.top {
+	display: flex;
+	align-items: flex-start;
+}
+
+.container.-nojc {
+	justify-content: left;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	height: 80px;
+}
+
+.header__logo {
+	width: 63px;
+	height: 63px;
+}
+
+.header__link {
+	margin-right: 30px;
+	color: white;
+	font-size: 19px;
+}
+
+.heder__link:first-child {
+	margin: 0 auto;
+}
+
+.hero {
+	background-image: url("./img/hero-bg.jpg");
+	height: 600px; 
+	padding-top: 45px; 
+}
+
+.hero__date {
+	width: 110px;
+	margin: 0 auto;
+	color: white;
+	font-size: 40px;
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+	margin-left: 0px;
+}
+
+.hero__title {
+	color: white;
+	font-size: 40px;
+	border-bottom: 3px solid white;
+	padding-bottom: 5px;
+}
+
+.hero__video {
+	position: absolute;
+	right: 10%;
+	top: 180px; 
+}
+
+.hero__info {
+	padding-top: 50px;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
+
+.desc {
+	margin-top: 40px;
+}
+
+.time {
+	height: 30px;
+	width: 30px;
+}
+
+.desc__left {
+	margin: 0;
+	width: 600px;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	margin-bottom: 20px; 
+}
+
+.info__duration {
+	margin: 0;
+	margin-left: 10px;
+	font-size: 35px;	
+}
+
+.info__genre {
+	margin: 0;
+	margin-right: 25px; 
+	font-size: 25px;
+}
+
+.price {
+	margin-right: 10px; 
+	height: 30px;
+	width: 30px;
+}
+
+.info__cost {
+	margin: 0;
+	font-size: 23px;
+}
+
+.speakers {
+	height: 200px;
+	width: 350px;
+	border: 5px solid black;
+}
+
+.line {
+	background-color: black;
+	width: 600px;
+	height: 3px;
+	margin-bottom: 30px; 
+}
+
+.name {
+	display: flex;
+	margin-left: 20px; 
+}
+
+.photo {
+	border-radius: 50%;
+	height: 73px;
+	width: 70px;
+}
+
+.producer {
+	margin-left: 25px;
+	margin-bottom: 35px; 
+}
+
+.who {
+	margin-top: 10px;
+	margin-bottom: 5px;  
+}
+
+.together {
+	margin-left: 10px; 
+}
+
+p {
+	line-height: 1.6;
+}
+
+.manifest {
+	width: 520px;
+	line-height: 1.6;
+	font-size: 18px;
+	border: 3px solid #000;
+    padding: 13px;
+    margin-bottom: 40px;
+}
+
+.manifest:before {
+	display: block;
+	content: "";
+	position: absolute; 
+	border: 20px solid transparent;
+	border-left: 20px solid black;
+	border-top: 20px solid black;
+	bottom: -56px;
+
+}
+
+.critic {
+	font-size: 16px;
+	margin-bottom: 0px; 
+}
+
+.coment {
+	padding-left: 30px; 
+	border-left: 5px solid salmon;
+}
+
+.coment.-restriction{
+	width: 400px;
+}
+
+.work {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.details {
+	margin-top: 30px; 
+}
+
+.detail {  
+	display: flex;
+	margin-top: 3px; 
+}
+
+.details__list {
+	padding: 0px;
+	width: 750px;
+}
+
+.detail__key {
+	font-weight: bold; 
+	margin: 0px;
+	margin-right: 30px;
+	width: 200px;  
+}
+
+.detail__value {
+	margin: 0px;
+}
+
+.clue {
+	font-size: 30px;
+}
+
+.list.-container {
+	display: flex;
+	width: 750px;
+	margin-bottom: 40px;
+}
+
+.container.-no-flex {
+	display: flex;
+	flex-direction: column;
+	align-items:  flex-start;
+}
+
+.line.-bottom {
+	width: 1124px;
+}
+
+.clue {
+	margin-bottom: 15px;
+}
+
+.clue.-left {
+	margin-left: 30px;
+}
+
+.gallery {
+	height: 320px;
+	width: 525px;
+}
+
+.port {
+	margin-left: 30px;
+}
+
+.actors {
+	width: 250px;
+}
+
+.acotr {
+	margin-top: 5px;
+}
+
+
