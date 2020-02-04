@@ -47,7 +47,7 @@ header {
 
 .header__nav {
 	height: 60px;
-		display: flex;
+					display: flex;
 	align-items: center;
 }
 
