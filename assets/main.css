@@ -16,6 +16,10 @@ h3 {
 	margin: 0;
 }
 
+ul {
+	text-decoration: none; 
+}
+
 .container {
 	display: flex;
 	align-items: center;
@@ -41,9 +45,19 @@ header {
 	height: 80px;
 }
 
+.header__nav {
+	height: 60px;
+		display: flex;
+	align-items: center;
+}
+
 .header__logo {
 	width: 63px;
 	height: 63px;
+}
+
+.heder__link:first-child {
+	margin: 0 auto;
 }
 
 .header__link {
@@ -52,9 +66,6 @@ header {
 	font-size: 19px;
 }
 
-.heder__link:first-child {
-	margin: 0 auto;
-}
 
 .hero {
 	background-image: url("./img/hero-bg.jpg");
@@ -288,7 +299,7 @@ p {
 }
 
 .actors {
-	width: 250px;
+	width: 350px;
 }
 
 .acotr {
