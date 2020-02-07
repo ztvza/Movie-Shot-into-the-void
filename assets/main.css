@@ -22,20 +22,14 @@ ul {
 
 .container {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
 	width: 1124px;
 	margin: 0 auto;
-	align-items:  flex-start;
 }
 
-.container.top {
+.container.-top {
 	display: flex;
-	align-items: flex-start;
-}
-
-.container.-nojc {
-	justify-content: left;
+	align-items: center;
 }
 
 header {
@@ -47,7 +41,7 @@ header {
 
 .header__nav {
 	height: 60px;
-					display: flex;
+	display: flex;
 	align-items: center;
 }
 
@@ -65,7 +59,6 @@ header {
 	color: white;
 	font-size: 19px;
 }
-
 
 .hero {
 	background-image: url("./img/hero-bg.jpg");
@@ -213,7 +206,7 @@ p {
 	border: 20px solid transparent;
 	border-left: 20px solid black;
 	border-top: 20px solid black;
-	bottom: -56px;
+	bottom: -105px;
 
 }
 
@@ -292,6 +285,13 @@ p {
 .gallery {
 	height: 310px;
 	width: 515px;
+	  cursor: pointer;
+}
+
+.gallery1:hover {
+	transition: 0.3s;
+	width: 500px;
+	height: 500px;
 }
 
 .port {
@@ -305,5 +305,22 @@ p {
 .acotr {
 	margin-top: 5px;
 }
+.footer {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	background-color: black;
+	height: 120px;
+}
 
+.white {
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+}
 
+.gif {
+
+	width: 80px;
+	height: 80px;
+}
