@@ -20,79 +20,6 @@ ul {
 	text-decoration: none; 
 }
 
-.container {
-	display: flex;
-	justify-content: space-between;
-	width: 1124px;
-	margin: 0 auto;
-}
-
-.container.-top {
-	display: flex;
-	align-items: center;
-}
-
-header {
-	display: flex;
-	align-items: center;
-	background-color: black;
-	height: 80px;
-}
-
-.header__nav {
-	height: 60px;
-	display: flex;
-	align-items: center;
-}
-
-.header__logo {
-	width: 63px;
-	height: 63px;
-}
-
-.heder__link:first-child {
-	margin: 0 auto;
-}
-
-.header__link {
-	margin-right: 30px;
-	color: white;
-	font-size: 19px;
-}
-
-.hero {
-	background-image: url("./img/hero-bg.jpg");
-	height: 600px; 
-	padding-top: 45px; 
-}
-
-.hero__date {
-	width: 105px;
-	margin: 0 auto;
-	color: white;
-	font-size: 40px;
-	border-bottom: 2px solid white;
-	padding-bottom: 5px;
-	margin-left: 0px;
-}
-
-.hero__title {
-	color: white;
-	font-size: 40px;
-	border-bottom: 3px solid white;
-	padding-bottom: 5px;
-}
-
-.hero__video {
-	position: absolute;
-	right: 10%;
-	top: 180px; 
-}
-
-.hero__info {
-	padding-top: 50px;
-}
-
 .left {
 	display: flex;
 	align-items: center;
@@ -103,13 +30,13 @@ header {
 	align-items: center;
 }
 
-.desc {
-	margin-top: 40px;
-}
-
 .time {
 	height: 30px;
 	width: 30px;
+}
+
+.desc {
+	margin-top: 40px;
 }
 
 .desc__left {
@@ -117,35 +44,10 @@ header {
 	width: 600px;
 }
 
-.info {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 70px;
-	margin-bottom: 20px; 
-}
-
-.info__duration {
-	margin: 0;
-	margin-left: 10px;
-	font-size: 35px;	
-}
-
-.info__genre {
-	margin: 0;
-	margin-right: 25px; 
-	font-size: 25px;
-}
-
 .price {
 	margin-right: 10px; 
 	height: 30px;
 	width: 30px;
-}
-
-.info__cost {
-	margin: 0;
-	font-size: 23px;
 }
 
 .speakers {
@@ -229,31 +131,6 @@ p {
 	margin-top: 5px;
 }
 
-.details {
-	margin-top: 30px; 
-}
-
-.detail {  
-	display: flex;
-	margin-top: 3px; 
-}
-
-.details__list {
-	padding: 0px;
-	width: 750px;
-}
-
-.detail__key {
-	font-weight: bold; 
-	margin: 0px;
-	margin-right: 30px;
-	width: 200px;  
-}
-
-.detail__value {
-	margin: 0px;
-}
-
 .clue {
 	font-size: 30px;
 }
@@ -262,12 +139,6 @@ p {
 	display: flex;
 	width: 750px;
 	margin-bottom: 40px;
-}
-
-.container.-no-flex {
-	display: flex;
-	flex-direction: column;
-	align-items:  flex-start;
 }
 
 .line.-bottom {
@@ -323,4 +194,28 @@ p {
 
 	width: 80px;
 	height: 80px;
+}
+.details {
+	margin-top: 30px; 
+}
+
+.detail {  
+	display: flex;
+	margin-top: 3px; 
+}
+
+.details__list {
+	padding: 0px;
+	width: 750px;
+}
+
+.detail__key {
+	font-weight: bold; 
+	margin: 0px;
+	margin-right: 30px;
+	width: 200px;  
+}
+
+.detail__value {
+	margin: 0px;
 }

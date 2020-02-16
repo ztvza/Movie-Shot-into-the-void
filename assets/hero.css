@@ -1,0 +1,32 @@
+.hero {
+	background-image: url("./img/hero-bg.jpg");
+	height: 600px; 
+	padding-top: 45px; 
+}
+
+.hero__date {
+	width: 105px;
+	margin: 0 auto;
+	color: white;
+	font-size: 40px;
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+	margin-left: 0px;
+}
+
+.hero__title {
+	color: white;
+	font-size: 40px;
+	border-bottom: 3px solid white;
+	padding-bottom: 5px;
+}
+
+.hero__video {
+	position: absolute;
+	right: 10%;
+	top: 180px; 
+}
+
+.hero__info {
+	padding-top: 50px;
+}
